@@ -3,11 +3,11 @@ const cors=require('cors')
 const connectDB=require("./config/db")
 const app =express()
 
-const allowedOrigins=[
-    "https://ecom-frontend-indol.vercel.app/",
-    "https://ecom-frontend-git-main-shashank-ls-projects-5fbee625.vercel.app/",
-    "https://ecom-frontend-e25lsslf9-shashank-ls-projects-5fbee625.vercel.app/"
-];
+const allowedOrigins = [
+    'https://ecom-frontend-indol.vercel.app',
+    'https://ecom-frontend-git-main-shashank-ls-projects-5fbee625.vercel.app',
+    'https://ecom-frontend-aa3e0ssqc-shashank-ls-projects-5fbee625.vercel.app'
+  ];
 
 app.use(express.json())
 app.use(cors({
