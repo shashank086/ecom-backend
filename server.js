@@ -5,7 +5,8 @@ const app =express()
 
 const allowedOrigins=[
     "https://ecom-frontend-indol.vercel.app/",
-    "https://vercel.com/shashank-ls-projects-5fbee625/ecom-frontend/DnBbGr6ugRurqNjZj6RNG3yKqJXg"
+    "https://vercel.com/shashank-ls-projects-5fbee625/ecom-frontend/DnBbGr6ugRurqNjZj6RNG3yKqJXg",
+    "https://ecom-frontend-nf4dm5w92-shashank-ls-projects-5fbee625.vercel.app/"
 ];
 
 app.use(express.json())
@@ -23,7 +24,7 @@ app.use(cors({
     credentials: true, // Allows cookies and authentication headers if needed
   }))
 
-  
+
 connectDB()
 
 app.use("/auth",require("./routes/authRoutes"))
