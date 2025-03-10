@@ -5,8 +5,8 @@ const app =express()
 
 const allowedOrigins=[
     "https://ecom-frontend-indol.vercel.app/",
-    "https://vercel.com/shashank-ls-projects-5fbee625/ecom-frontend/DnBbGr6ugRurqNjZj6RNG3yKqJXg",
-    "https://ecom-frontend-nf4dm5w92-shashank-ls-projects-5fbee625.vercel.app/"
+    "https://ecom-frontend-git-main-shashank-ls-projects-5fbee625.vercel.app/",
+    "https://ecom-frontend-e25lsslf9-shashank-ls-projects-5fbee625.vercel.app/"
 ];
 
 app.use(express.json())
